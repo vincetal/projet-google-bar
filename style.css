@@ -1,0 +1,79 @@
+body
+{
+   margin:0;
+}
+header
+{
+   display: flex;
+   justify-content: flex-end;
+}
+header > a
+{
+   padding:5px;
+}
+main
+{
+   margin: 0 30%;
+   margin-top:100px;
+}
+footer
+{
+   position:fixed;
+   bottom:0;
+   width:100%;
+   background-color:#F2F2F2;
+}
+
+.barre
+{
+   width:100%;
+   height:50px;
+   margin-bottom: 20px;
+   border-radius: 80px 80px 80px 80px;
+	padding: 10px;
+}
+.flex0
+{
+   display:flex;
+   justify-content: center;
+}
+.flex1
+{
+   width:100%;
+   display:flex;
+   justify-content:center;
+}
+.flex2
+{
+   display:flex;
+   justify-content:space-between;
+}
+.flex2 > div > a, a:active, a:visited
+{
+   padding:10px 10px;
+   color:rgb(122, 125, 128);
+   text-decoration: none;
+   line-height:40px;
+}
+.flex2 > div > a:hover
+{
+   text-decoration: underline;
+}
+.flex2 > div
+{
+   height:40px;
+}
+.france
+{
+   border-bottom:1px solid rgb(214, 213, 213);
+   border-top:1px solid rgb(214, 213, 213);
+   line-height:40px;
+   padding-left: 10px;
+   color:rgb(122, 125, 128);
+}
+img
+{
+   width:280px;
+   margin:0 auto;
+}
+
